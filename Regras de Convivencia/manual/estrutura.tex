@@ -1,0 +1,41 @@
+\usepackage[utf8]{inputenc} % Permite caracteres acentuados
+
+\setcounter{secnumdepth}{2} % Profundidade da numeração
+\setcounter{tocdepth}{1} % Profundidade do sumário
+
+\usepackage{titlesec} % Número e nome dos capítulos na mesma linha
+\titleformat{\chapter}[hang]
+{\normalfont\normalsize\bfseries}{CAPÍTULO \thechapter.}{0.5em}{} 
+\titleformat{\section}[block]
+{\normalfont\normalsize\bfseries}{}{0.5em}{Seção \thesection. } 
+
+\titleformat{\subsection}[block]
+{\normalfont\normalsize\bfseries}{}{0.5em}{Subseção \thesubsection. } 
+
+\usepackage{titletoc}%
+\titlecontents{chapter}% <section-type>
+  [0pt]% <left>
+  {\bfseries}% <above-code>
+  {\chaptername\ \thecontentslabel.\quad}% <numbered-entry-format>
+  {}% <numberless-entry-format>
+  {\hfill\contentspage}% <filler-page-format>
+
+
+\renewcommand{\thechapter}{\Roman{chapter}} %Altera numeração de capítulos para números romanos
+\renewcommand{\thesection}{\Roman{section}} %Altera numeração de seções para números romanos
+\renewcommand{\thesubsection}{\Roman{subsection}} %Altera numeração de subseções para números romanos
+
+%\renewcommand*\thesection{\arabic{section}} %Altera numeração de seções para não estarem vinculadas aos números dos capítulos
+
+\setlength{\parindent}{0pt} % Retira indentação dos parágrafos
+
+\usepackage[spanish]{babel}
+\usepackage{enumitem}
+
+
+%\usepackage{remreset} % Para numeração de seções continuamente, independente dos capítulos
+%\makeatletter 
+%  \@removefromreset{section}{chapter}
+%\makeatother
+
+%\usepackage{hyperref} % Utilizado no sistema de referência cruzada - vide arquivo "cross-reference.txt" 
