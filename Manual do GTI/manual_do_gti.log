@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.31)  11 FEB 2022 16:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.1.26)  20 MAR 2022 19:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,9 +6,9 @@ entering extended mode
 (manual_do_gti.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2021-11-22>
-(C:\Users\anaca\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+(C:\Users\conta\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
-(C:\Users\anaca\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+(C:\Users\conta\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
 File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count183
@@ -23,102 +23,54 @@ File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip48
 \bibindent=\dimen138
 )
-(C:\Users\anaca\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+(C:\Users\conta\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
 )
-(C:\Users\anaca\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+(C:\Users\conta\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2021/11/29 3.67 The Babel package
 \babel@savecnt=\count191
 \U@D=\dimen139
 \l@unhyphenated=\language79
 
-(C:\Users\anaca\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+(C:\Users\conta\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count192
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Users\anaca\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+(C:\Users\conta\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\anaca\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\portugue
+(C:\Users\conta\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\portugue
 se.ldf
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
 Package babel Info: Making " an active character on input line 143.
 ))
-(C:\Users\anaca\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titletoc.sty
-Package: titletoc 2021/07/05 v2.14 TOC entries
-\ttl@leftsep=\dimen140
-)
-(C:\Users\anaca\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
-File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count193
-\l__pdf_internal_box=\box50
-) (manual_do_gti.aux)
-\openout1 = `manual_do_gti.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <17.28> on input line 19.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 19.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 19.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 19.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 19.
- [1
+! LaTeX Error: File `titletoc.sty' not found.
 
-{C:/Users/anaca/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (manual_do_g
-ti.toc
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 3.
-)
-\tf@toc=\write3
-\openout3 = `manual_do_gti.toc'.
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
 
- [1] [2] [3] (manual_do_gti.aux) ) 
+Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.5 
+     
+*** (cannot \read from terminal in nonstop modes)
+
+ 
 Here is how much of TeX's memory you used:
- 1604 strings out of 478659
- 28684 string characters out of 2845920
- 345742 words of memory out of 3000000
- 19753 multiletter control sequences out of 15000+600000
- 409312 words of font info for 46 fonts, out of 8000000 for 9000
+ 1195 strings out of 478659
+ 20260 string characters out of 2845920
+ 333352 words of memory out of 3000000
+ 19374 multiletter control sequences out of 15000+600000
+ 403430 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,7n,52p,424b,221s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\anaca\AppData\Local\MiKTeX\fonts/p
-k/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\anaca\AppData\Local\MiKTeX\f
-onts/pk/ljfour/jknappen/ec/dpi600\tcrm0600.pk> <C:\Users\anaca\AppData\Local\Mi
-KTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/anaca/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/anaca/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users
-/anaca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-C:/Users/anaca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
-12.pfb><C:/Users/anaca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmr17.pfb><C:/Users/anaca/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmr8.pfb>
-Output written on manual_do_gti.pdf (4 pages, 100380 bytes).
-PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 40i,0n,52p,161b,36s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
